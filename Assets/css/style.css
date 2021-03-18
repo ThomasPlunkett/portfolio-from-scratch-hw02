@@ -6,8 +6,13 @@
  h1 {
     color:grey;
 }
+ 
  a {
      color: turquoise;
+ }
+
+ h2 {
+     color: cornflowerblue;
  }
 /* Class Selectors */
 
