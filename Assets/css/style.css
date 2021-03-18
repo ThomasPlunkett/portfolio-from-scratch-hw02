@@ -22,13 +22,13 @@ nav ul {
 
   nav a {
     color: turquoise;
-    font-weight: bold;
-
+    font-weight: bold; 
   }
   
   nav a:hover {
-    color: #fff;
+    color: white;
   }
+
 
   ul {
     list-style-type: none;
