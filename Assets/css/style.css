@@ -1,6 +1,19 @@
 /* Universal Selectors */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0
+}
 
+header {
+    padding: 60px;
+    text-align: left;
+    text-decoration-color: turquoise;
+    background-color: grey;
+}
 
+nav {
+    text-align: right;
+}
 /* Element Selectors */
 
  h1 {
@@ -14,8 +27,32 @@
  h2 {
      color: cornflowerblue;
  }
+
+ p {
+     color: black;
+ }
+
+ h3 {
+     color: black;
+ }
+
 /* Class Selectors */
 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: turquoise;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
 /* Id Selectors */
 
