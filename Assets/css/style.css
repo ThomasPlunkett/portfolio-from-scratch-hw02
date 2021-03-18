@@ -5,14 +5,33 @@ body {
 }
 
 header {
-    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     text-align: left;
     text-decoration-color: turquoise;
     background-color: grey;
 }
 
-nav {
-    text-align: right;
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+
+  nav a {
+    color: turquoise;
+    font-weight: bold;
+
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+
+  ul {
+    list-style-type: none;
 }
 /* Element Selectors */
 
